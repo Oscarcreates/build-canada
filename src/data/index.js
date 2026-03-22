@@ -185,5 +185,5 @@ export const PROJECTS = [
 ];
 
 // ── HERO VIDEO ──
-export const HERO_VIDEO_SRC    = "/assets/construction-hero.mp4";
+export const HERO_VIDEO_SRC    = "https://res.cloudinary.com/dquamrc0f/video/upload/v1774150167/construction-hero_qkre1o.mp4";
 export const HERO_VIDEO_POSTER = "/assets/construction-poster.jpg";
