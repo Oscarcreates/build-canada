@@ -17,7 +17,7 @@ export default function CTABanner({ scrollTo }) {
           Ready to Start Your Project?
         </h2>
         <p className="text-sky-100 text-lg mb-8 max-w-xl mx-auto">
-          Get a free, no-obligation consultation and estimate from our team of experts.
+          Get a free, <a href="https://www.royalbuild-construction.com">no-obligation consultation </a>and estimate from our team of experts.
         </p>
         <button
           onClick={() => scrollTo("Contact")}
