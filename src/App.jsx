@@ -3,7 +3,9 @@
 //  Now uses React Router for service detail pages
 // ─────────────────────────────────────────────
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 import Navbar            from "./Components/Nav";
+import { HelmetProvider } from 'react-helmet-async';
 import HeroSection       from "./Components/Hero";
 import ServicesSection   from "./Components/Services";
 import AboutSection      from "./Components/About";
@@ -19,6 +21,7 @@ function HomePage() {
     document.getElementById(label.toLowerCase())?.scrollIntoView({ behavior: "smooth" });
 
   return (
+       <HelmetProvider>
     <div className="font-sans bg-white text-gray-800" style={{ fontFamily: "'Segoe UI', system-ui, sans-serif" }}>
       <Navbar scrollTo={scrollTo} />
       <HeroSection scrollTo={scrollTo} />
@@ -29,6 +32,7 @@ function HomePage() {
       <ContactSection />
       <Footer scrollTo={scrollTo} />
     </div>
+    </HelmetProvider>
   );
 }
 

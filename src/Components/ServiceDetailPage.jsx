@@ -1,10 +1,9 @@
 // ─────────────────────────────────────────────
 //  Component: ServiceDetailPage
 //  Route: /services/:slug
-//  Shows: extended description, what's included,
-//         service stats, and a contact/quote form
 // ─────────────────────────────────────────────
 import { useState } from "react";
+import { Helmet } from "react-helmet-async"; // ← ADDED
 import { useParams, useNavigate } from "react-router-dom";
 import { SERVICES } from "../data";
 
@@ -35,6 +34,16 @@ export default function ServiceDetailPage() {
   }
 
   return (
+    <>
+      {/* ── SEO META TAGS (dynamic per service) ── */}
+      <Helmet>
+        <title>{service.title} | Build Canada Construction</title>
+        <meta
+          name="description"
+          content={`Build Canada Construction offers expert ${service.title.toLowerCase()} services across Canada. Professional results, licensed contractors, and dedicated project managers. Get a free quote today.`}
+        />
+      </Helmet>
+
     <div className="min-h-screen bg-white" style={{ fontFamily: "'Segoe UI', system-ui, sans-serif" }}>
 
       {/* ── HERO BANNER ── */}
@@ -173,7 +182,6 @@ export default function ServiceDetailPage() {
               </div>
             </div>
 
-          
             <div
               className="rounded-2xl p-8 border border-sky-100"
               style={{ background: "linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%)" }}
@@ -181,13 +189,12 @@ export default function ServiceDetailPage() {
               <h3 className="text-xl font-black text-gray-900 mb-5">Why Choose Build Canada?</h3>
               <div className="grid sm:grid-cols-2 gap-4">
                 {[
-                  { title: "20+ Years Experience",    desc: "Decades of expertise on Canadian soil." },
-                  { title: "Licensed & Insured",       desc: "Fully certified and compliant with all Canadian codes." },
-                  { title: "On-Time Delivery",         desc: "We respect your timeline and budget." },
-                  { title: "Dedicated Project Manager",desc: "One point of contact from start to finish." },
+                  { title: "20+ Years Experience",     desc: "Decades of expertise on Canadian soil." },
+                  { title: "Licensed & Insured",        desc: "Fully certified and compliant with all Canadian codes." },
+                  { title: "On-Time Delivery",          desc: "We respect your timeline and budget." },
+                  { title: "Dedicated Project Manager", desc: "One point of contact from start to finish." },
                 ].map((item, i) => (
                   <div key={i} className="flex items-start gap-3">
-                    <span className="text-2xl">{item.icon}</span>
                     <div>
                       <div className="font-black text-gray-900 text-sm">{item.title}</div>
                       <div className="text-gray-500 text-xs mt-0.5">{item.desc}</div>
@@ -307,5 +314,6 @@ export default function ServiceDetailPage() {
         }
       `}</style>
     </div>
+    </>
   );
 }

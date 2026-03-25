@@ -13,12 +13,22 @@
 //    4. Optionally set a poster image: HERO_VIDEO_POSTER = "/images/hero-poster.jpg"
 // ─────────────────────────────────────────────
 import { useRef } from "react";
+import { Helmet } from "react-helmet-async";  // ← ADD THIS
 import { STATS, HERO_VIDEO_SRC, HERO_VIDEO_POSTER } from "../data";
 
 export default function HeroSection({ scrollTo }) {
   const videoRef = useRef(null);
 
   return (
+    <>
+      <Helmet>
+        <title>Build Canada Construction</title>
+        <meta
+          name="description"
+          content="Build Canada Construction provides residential, commercial, renovation, and general contracting services across Canada. Quality craftsmanship on every project. Request a free quote today."
+        />
+      </Helmet>
+   
     <section
       id="home"
       className="relative min-h-screen flex items-center justify-center overflow-hidden"
@@ -156,5 +166,6 @@ export default function HeroSection({ scrollTo }) {
         }
       `}</style>
     </section>
+     </>
   );
 }
