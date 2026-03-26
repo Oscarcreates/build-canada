@@ -59,7 +59,7 @@ export default function Footer({ scrollTo }) {
             <h4 className="text-white font-black mb-4 text-sm uppercase tracking-widest">Contact</h4>
             <div className="space-y-3 text-sm text-gray-400">
               <div>+1 (705) 528-2359</div>
-              <div>✉️ info@chorabridge <span>construction.com</span></div>
+              <div>✉️ info@chorabridge<span>construction.com</span></div>
               <div>🕐 Mon–Fri, 8am – 6pm EST</div>
             </div>
             <div className="flex gap-3 mt-6">

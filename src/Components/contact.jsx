@@ -213,7 +213,7 @@ export default function ContactSection() {
                   <div className="bg-sky-50 rounded-2xl p-4 border border-sky-100">
                     <div className="text-lg mb-1">✉️</div>
                     <div className="text-xs font-bold text-gray-500 uppercase tracking-wide mb-1">Email</div>
-                    <div className="text-sky-600 font-bold text-sm">info@buildcanadaconstruction.com</div>
+                    <div className="text-sky-600 font-bold text-sm">info@chorabridge <span>construction.com</span></div>
                   </div>
                 </div>
               </div>
