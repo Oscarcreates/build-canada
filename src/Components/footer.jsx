@@ -16,7 +16,7 @@ export default function Footer({ scrollTo }) {
                 <span className="text-white font-black text-lg">C</span>
               </div>
               <div>
-                <div className="text-sky-400 font-black text-sm leading-tight tracking-wide uppercase">Build Canada</div>
+                <div className="text-sky-400 font-black text-sm leading-tight tracking-wide uppercase">Chora Bridge</div>
                 <div className="text-gray-500 text-[10px] tracking-widest uppercase leading-none">Construction</div>
               </div>
             </div>
@@ -82,7 +82,7 @@ export default function Footer({ scrollTo }) {
 
         {/* Bottom bar */}
         <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-gray-500">
-          <div>© {new Date().getFullYear()} Build Canada Construction. All rights reserved.</div>
+          <div>© {new Date().getFullYear()} Chora Bridge Construction. All rights reserved.</div>
           <div className="flex gap-6">
             {["Privacy Policy", "Terms of Service", "Sitemap"].map((l) => (
               <span key={l} className="hover:text-sky-400 cursor-pointer transition-colors">{l}</span>

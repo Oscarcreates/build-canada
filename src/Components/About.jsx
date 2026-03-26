@@ -12,10 +12,10 @@ export default function AboutSection() {
     <>
       {/* ── SEO META TAGS ── */}
       <Helmet>
-        <title>About Us | Build Canada Construction</title>
+        <title>About Us | Chora Bridge Construction</title>
         <meta
           name="description"
-          content="Build Canada Construction is a trusted construction company serving clients nationwide. From homes to commercial builds, we bring expertise, reliability, and quality to every project across Canada."
+          content="Chora Bridge Construction is a trusted construction company serving clients nationwide. From homes to commercial builds, we bring expertise, reliability, and quality to every project across Canada."
         />
       </Helmet>
 
@@ -40,7 +40,7 @@ export default function AboutSection() {
                 <span className="text-sky-500">Driven by Excellence.</span>
               </h2>
               <p className="text-gray-600 leading-relaxed mb-5 text-lg">
-                Build Canada Construction has been a cornerstone of Canadian infrastructure
+                Chora Bridge Construction has been a cornerstone of Canadian infrastructure
                 for over two decades. With offices in Toronto, Montreal, Ottawa, and Huntsville,
                 we bring national reach with local expertise.
               </p>

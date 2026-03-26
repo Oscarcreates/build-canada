@@ -22,10 +22,10 @@ export default function HeroSection({ scrollTo }) {
   return (
     <>
       <Helmet>
-        <title>Build Canada Construction</title>
+        <title> Chora Bridge Construction</title>
         <meta
           name="description"
-          content="Build Canada Construction provides residential, commercial, renovation, and general contracting services across Canada. Quality craftsmanship on every project. Request a free quote today."
+          content="Chora Bridge Construction provides residential, commercial, renovation, and general contracting services across Canada. Quality craftsmanship on every project. Request a free quote today."
         />
       </Helmet>
    
@@ -126,7 +126,7 @@ export default function HeroSection({ scrollTo }) {
             className="text-lg text-white/85 leading-relaxed mb-8 max-w-lvh mx-auto"
             style={{ animation: "fadeSlideUp 0.8s ease 0.2s both" }}
           >
-           Build Canada Construction delivers world-class residential, commercial,
+           Chora Bridge Construction delivers world-class residential, commercial,
             industrial, and infrastructure projects with unmatched precision and craftsmanship.
           </p>
 

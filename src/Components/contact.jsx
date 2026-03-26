@@ -53,10 +53,10 @@ export default function ContactSection() {
     <>
       {/* ── SEO META TAGS ── */}
       <Helmet>
-        <title>Contact Us | Build Canada Construction</title>
+        <title>Contact Us | Chora Bridge Construction</title>
         <meta
           name="description"
-          content="Ready to build? Contact Build Canada Construction for a free consultation or quote. Serving clients across Canada with residential, commercial, renovation, and contracting expertise."
+          content="Ready to build? Contact Chora Bridge Construction for a free consultation or quote. Serving clients across Canada with residential, commercial, renovation, and contracting expertise."
         />
       </Helmet>
 

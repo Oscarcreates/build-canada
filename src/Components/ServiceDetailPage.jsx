@@ -186,7 +186,7 @@ export default function ServiceDetailPage() {
               className="rounded-2xl p-8 border border-sky-100"
               style={{ background: "linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%)" }}
             >
-              <h3 className="text-xl font-black text-gray-900 mb-5">Why Choose Build Canada?</h3>
+              <h3 className="text-xl font-black text-gray-900 mb-5">Why Choose Chora Bridge?</h3>
               <div className="grid sm:grid-cols-2 gap-4">
                 {[
                   { title: "20+ Years Experience",     desc: "Decades of expertise on Canadian soil." },
