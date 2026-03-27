@@ -7,7 +7,7 @@ import { ADDRESSES, SERVICES } from "../data";
 import { FadeIn } from "../utils";
 
 // ↓ Change this to your actual endpoint URL if it differs
-const CONTACT_ENDPOINT = "https://mail-server-towing-pages.vercel.app/api/canada-builders";
+const CONTACT_ENDPOINT = "https://mail-server-towing-pages.vercel.app/api/";
 
 export default function ContactSection() {
   const [formData, setFormData] = useState({
