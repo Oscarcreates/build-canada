@@ -208,7 +208,6 @@ export default function ContactSection() {
                   <div className="bg-sky-50 rounded-2xl p-4 border border-sky-100">
                     <div className="text-lg mb-1">📞</div>
                     <div className="text-xs font-bold text-gray-500 uppercase tracking-wide mb-1">Phone</div>
-                    <div className="text-sky-600 font-bold text-sm">+1 (705) 528-2359</div>
                      <div className="text-sky-600 font-bold text-sm">+1 (800)-601-1695</div>
                   </div>
                   <div className="bg-sky-50 rounded-2xl p-4 border border-sky-100">
