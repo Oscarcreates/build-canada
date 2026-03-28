@@ -59,6 +59,7 @@ export default function Footer({ scrollTo }) {
             <h4 className="text-white font-black mb-4 text-sm uppercase tracking-widest">Contact</h4>
             <div className="space-y-3 text-sm text-gray-400">
               <div>+1 (705) 528-2359</div>
+              <div>+1 (800)-601-1695</div>
               <div>✉️ info@crestforge<span>construction.com</span></div>
               <div>🕐 Mon–Fri, 8am – 6pm EST</div>
             </div>
