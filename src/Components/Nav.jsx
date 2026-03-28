@@ -50,7 +50,7 @@ export default function Navbar({ scrollTo }) {
               className="font-black text-sm leading-tight tracking-wide uppercase transition-colors duration-300"
               style={{ color: scrolled ? "#0284c7" : "#ffffff" }}
             >
-              Chora Bridge
+              Crest Forge
             </div>
             <div
               className="text-[10px] tracking-widest uppercase leading-none transition-colors duration-300"
