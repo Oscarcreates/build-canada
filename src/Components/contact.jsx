@@ -53,7 +53,7 @@ export default function ContactSection() {
     <>
       {/* ── SEO META TAGS ── */}
       <Helmet>
-        <title>Contact Us | Crest Forge Construction</title>
+        <title>Contact Us | Crest Forge Constructione</title>
         <meta
           name="description"
           content="Ready to build? Contact Crest Forge Construction for a free consultation or quote. Serving clients across Canada with residential, commercial, renovation, and contracting expertise."
